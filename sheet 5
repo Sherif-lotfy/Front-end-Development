@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> sheet 5</title>
+    </head>
+    <body style="margin-top:0px;margin-left: 0px;margin-right: 0px;">
+<table style="background-color: #2554C7;width: 100%;height: 50px;color: #8EEBEC;">
+    <tr>
+        <td style="width: 20%;"><center><img src="photo_2023-03-18_21-40-33.jpg" style="width: 40px;height: 40px;align-items:center;"></center></td>
+        <td style="width: 60%;text-align: center;font-size: 170%;font-family: serif;"><b>Faculty of Science – Ain Shams University</b></td>
+        <td style="width: 20%;"><center><img src="photo_2023-03-18_21-40-50.jpg" style="height: 40px; width: 40px; align-items: center;"></center></td>
+    </tr>
+</table>
+<div style="width: 100%;height: 200px;"><img src="Web capture_18-3-2023_213955_.jpeg" style="width: 100%;height: 100%;"></div>
+<div style="width: 100%;height: 25px;background-color: #4169E1;color: #8EEBEC;text-align: center;text-shadow: 1.2px 1.2px #9CA889; font-size: 120%;"><i>
+    Welcome to Faculty of Science – Ain Shams University </i></div>
+    <div style="float: right;width: 15%;height: 400px;"><img src="Web capture_18-3-2023_221427_.jpeg" style="width: 100%;height: 100%;"></div>
+    <div style="background-color:#8EEBEC;float: right;width: 65%;height: 400px;">
+    <table style="width: 100%;margin-top: 0px;">
+<tr style="font-size: 150%;color:#2554C7;">
+<th style="text-align: left;">Computer</th>
+<th style="width: 25%;text-align: center;">Statistics</th>
+<th style="text-align: center;">Physics & Computer</th>
+<th style="text-align: right;padding-right: 20px;">Mathematics</th>
+</tr>
+<tr style="font-size: 150%;color:#2554C7;">
+    <th style="text-align: left;">Science</th>
+    <th></th>
+    <th style="text-align: left;padding-left: 30px;">Science</th>
+    <th></th>
+    </tr>
+    <tr>
+        <td>Course Code:</td>
+        <td style="text-align: center;">Course Code:</td>
+        <td style="padding-left: 30px;">Course Code:</td>
+        <td style="padding-left: 45px;">Course Code:</td>
+    </tr>
+    <tr style="margin-bottom: 0px;">
+        <td><ol>
+            <li>COMP 102</li>
+            <li>COMP 104</li>
+            <li>COMP 106</li>
+        </ol></td>
+        <td style="padding-left: 40px;">
+            <ol type="I" style="margin-bottom: 0px;">
+            <li>COMP 104</li>
+            <li>COMP 102</li>
+        </ol>
+        </td>
+        <td style="padding-left: 30px;">
+        <ol>
+            <li>COMP 102</li>
+            <li>COMP 104</li>
+        </ol>
+        </td>
+        <td style="padding-left: 45px;">
+        <ol><li>COMP 108</li></ol>
+        </td>
+    </tr>
+    <tr style="margin-top: 0px;">
+        <td></td>
+        <td>
+            <ul style="padding-left: 90px;margin-top: 0px;">
+                <li>90 Final Exam</li>
+                <li>15 Mid-Term</li>
+                <li>7 Attendence</li>
+                <li>10 Activities</li>
+                <li>20 Final Lab Exam</li>
+                <li>8 Oral</li>
+                </ul></td>
+        <td style="padding-left: 30px;"></td>
+        <td style="padding-left: 45px;"></td>
+    </tr>
+    </table>
+    </div>
+    <div style="background-color:#488AC7;float: left;width: 20%;height: 400px;">
+    <a href="#" style="color: #8EEBEC; font-size: 150%;font-family: serif;"><b> computer Science</b></a><br><br>
+    <a href="#" style="color: #8EEBEC; font-size: 150%;"><b> Statistics</b></a><br><br>
+    <a href="#" style="color: #8EEBEC; font-size: 150%;"><b> physics and computer Science</b></a><br><br>
+    <a href="#" style="color: #8EEBEC; font-size: 150%;"><b> Mathematics</b></a>    
+    </div>
+    <div style="background-color:#2554C7;float: left;width: 100%;height: 30px; text-align: center;color: #8EEBEC;font-family:serif;">Copyright © 2022 Level 1 Spring Semester Faculty of Science - Ain Shams University</div>
+    </body>
+</html>
