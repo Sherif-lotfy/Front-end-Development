@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>tables</title>
+</head>
+<body style="font-size: 120%;">
+<table border="border-collapse: separate;" 
+        style="width: 1000px; margin-top: 50px; margin-left: 15%; float: center; border-spacing: 5px;">
+<tr style="height: 150px; ">
+    <th style="width:150px;height: 150px;"></th>
+    <th style="text-align: left;font-size: 200%;width:850px;height: 150px;"colspan="2"><div style="padding-left: 10px;">Web Page Layout Example</div> </th>
+</tr>
+<tr>
+    <td style="height: 300px;width: 150px;" rowspan="2"><div style="padding-left: 10px;">cellpadding cellspacing border rowspan colspan align valign</div></td>
+    <td style="width: 100px; height: 150px;"><div style="padding-left: 10px; padding-right: 20px;">Tables control Web page layout.</div></td>
+    <td style="width: 750px;height: 150px;"><img src="lily.jpg" style="height: 140px;width: 500px;padding-left: 100px;"></td>
+</tr>
+<tr>
+    <td style="height: 150px;"><img src="lily.jpg" style="height: 80px; width: 80px;padding-left: 10px;"></td>
+    <td style="height: 150px;"><div style="padding-left: 10px;">Tables are controlled with the attributes <b>cellpadding</b> (how much padding surrounds the content inside a cell); <b>cellspacing</b> (how much space appears between adjacent cells) and <b>border</b> (the width of the lines between cells). All three are measured in pixels. These attributes appear inside the TABLE tag. </div></td>
+</tr>
+<tr><td colspan="3" style="height: 90px;"><div style="padding-left: 10px;">The attributes <b>rowspan</b> and <b>colspan</b> allow one cell to span more than one row or column. These attributes appear inside the TD tag.</div></td></tr>
+<tr><td colspan="3" style="height: 90px;"><div style="padding-left: 10px;">Finally, positioning of elements within a table cell is controlled by <b>align</b> (left, center, right) and <b>valign</b> (top, middle, bottom). These attributes also appear inside the TD tag.</div></td></tr>
+</table>
+</body>
+</html>
