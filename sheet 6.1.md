@@ -1,5 +1,4 @@
-#sheet 6.
-####sheet 6.
+sheet 6.
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -170,7 +169,7 @@
     </body>
 </html>
 ```
-####sheet 6a.
+sheet 6a.
 ```
 <!DOCTYPE html>
 <html>
@@ -210,7 +209,7 @@
             </body>  
 </html>
 ```
-####sheet 6c.
+sheet 6c.
 ```
 <!DOCTYPE html>
 <html>
@@ -245,7 +244,7 @@
             </body>  
 </html>
 ```
-####sheet 6d.
+sheet 6d.
 ```
 <!DOCTYPE html>
 <html>
@@ -273,7 +272,7 @@
             </body>  
 </html>
 ```
-####sheet 6e.
+sheet 6e.
 ```
 <!DOCTYPE html>
 <html>
