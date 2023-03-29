@@ -181,7 +181,7 @@ sheet 6a.
 </div>
 </html>
 ```
-####sheet 6b.
+sheet 6b.
 ```
 <!DOCTYPE html>
 <html>
