@@ -83,9 +83,13 @@ width: calc(100% - 40px);
 }
  .field1 {
      justify-content: flex-end;
+     transition: 0.3s;
+
 }
 input {
     text-align: right;
     font-size:120% ;
 }
-
+.field1:empty {
+    opacity: 0;
+}
