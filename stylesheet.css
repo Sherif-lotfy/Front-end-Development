@@ -1,0 +1,91 @@
+:root {
+    --color1:#707070;
+    --color2: #222222;
+    --color3: white;
+    --nocolor:#00000000;
+}
+input[type=number]::-webkit-inner-spin-button {
+-webkit-appearance: none; 
+   margin: 0; 
+}
+* {
+    border-radius: 2px;
+    user-select: none;
+    color: var(--color3);
+    outline: none;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    /* direction: rtl; */
+}
+body {
+    background-color: var(--color1);
+    display: flex;
+    justify-content: center;    
+}
+.main-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:100px;
+    padding: 100px 40px;
+    width: 80%;
+    max-width: 700px;
+}
+
+.field1 ,
+.field2 {
+    background-color: var(--color2);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.field1 ,
+.field2 ,
+.btns {
+width: calc(100% - 40px);
+}
+.buttons {
+    height: 85px;
+    width: 100%;
+    height: 40px;
+    font-size: 200%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+.btn {
+    background-color: var(--color2);
+    width: calc((100% - 40px)/5);
+    text-align: center;
+}
+.btn:hover {
+    opacity: 0.7;
+}
+.btn:active {
+    transform: scale(0.8);
+}
+.sign {
+    height: 40px;
+    width: 40px;
+    background-color: var(--color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+}
+.input-field2 {
+    height: 40px;
+    width: calc(100% - 40px);
+    background-color: var(--nocolor);
+    border: none;
+}
+ .field1 {
+     justify-content: flex-end;
+}
+input {
+    text-align: right;
+    font-size:120% ;
+}
+
