@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Restaurant</title>
+</head>
+<body>
+    <div class="main-div">
+        <h3>Pizza Order Form...</h3>
+        <div class="name">
+            <label for="Name">Name:</label>
+            <input type="text" name="Name"/>
+        </div>
+        <br>
+        <div class="size">
+            <label for="Size">Size:</label>
+            <select name="Size">
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+            </select> 
+        </div>
+        <br>
+        <div class="toppings">
+            Toppings:
+            <hr>
+            <form>
+            <div>
+                <label for="pepperoni">pepperoni</label>
+                <input id="pepperoni" type="checkbox" value="pepperoni" name="toppings">
+            </div>
+            <br>
+            <div>
+                <label for="Mushrooms">Mushrooms</label>
+                <input id="Mushrooms" type="checkbox" value="Mushrooms" name="toppings">
+            </div>
+            <br>
+            <div>
+                <label for="Sausage">Sausage</label>
+                <input id="Sausage" type="checkbox" value="Sausage" name="toppings">
+            </div>
+            </form>
+        </div>
+        <br>
+        <div class="sub-div">
+            <div class="submit">Submit</div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
