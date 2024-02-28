@@ -1,0 +1,85 @@
+:root {
+    --color-1:#123123;
+    --color-2:white;
+    --color-3:#eee;
+}
+* {
+    color:var(--color-2);
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+body {
+    background-color: var(--color-3);
+}
+.main-div {
+    background-color: var(--color-1);
+    width: 70%;
+    max-width: 700px;
+    height: 600px;
+    padding: 50px 80px;
+    margin: auto;
+}
+input[type="text"] , select , option {
+    float: right;
+    outline: none;
+    border: none;
+    width: 70%;
+    color: var(--color-1);
+    border-radius: 3px;
+}
+input[type="checkbox"] {
+    float: right;
+    /* margin-right: 200px; */
+    margin-top: 10px;
+}
+.toppings {
+    width: 50%;
+}
+.sub-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.submit {
+    background-color: var(--color-2);
+    display: inline-block;
+    color: var(--color-1);
+    padding: 3px 5px;
+    border-radius: 3px;
+    transition: 0.3s;  
+}
+.submit:hover {
+    opacity: 0.9;
+}
+.submit:active {
+    transform: scale(0.8);
+}
+.order {
+    opacity: 1 !important;
+    background-color: var(--color-1);
+    width: 80%;
+    max-width: 700px;
+    height: 610px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.GoBack {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    padding: 5px 6px;
+    background-color: var(--color-2);
+    color: var(--color-1);
+    border-radius: 3px;
+    bottom: 20px;
+}
+#date {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
