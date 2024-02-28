@@ -1,0 +1,15 @@
+/* body{
+    background-color: white;
+} */
+*{
+    color:rgb(0, 0, 0);
+}
+#val , .num , .op , .singleOp{
+    border: 2px black solid;
+}
+#menu {
+    background-color: rgb(200, 200, 200);
+}
+#modeD:hover {
+    background-color: rgb(170, 170, 170);
+}
