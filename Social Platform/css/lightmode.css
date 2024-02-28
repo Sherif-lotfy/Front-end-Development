@@ -1,0 +1,38 @@
+  body {
+    background-color: rgb(240, 240, 240);
+  }
+  .header , .sidebar__top , .sidebar__stats , .sidebar__bottom , .feed__inputContainer , .post , .widgets{
+    background-color: white;
+  }
+  .headerOption:hover , #btn , #btn i {
+    color: black;
+  }
+  .header__search {
+    background-color: rgb(238, 243, 248);
+  }
+  .sidebar__recentItem:hover, .widgets__article:hover{
+    background-color: whitesmoke;
+    color: black;
+  }
+  .inputOption:hover , .delete_option:hover {
+    background-color: whitesmoke;
+  }
+  .newOptions {
+    background-color: whitesmoke; 
+    color: rgb(30, 30, 30);
+}
+.insideDiv{
+  color:rgb(30, 30, 30) !important;
+}
+  .insideDiv:hover {
+    background-color: rgb(200,200,200);
+    color: black;
+  }
+  .sbBtns {
+    border: 1px black solid;
+    color: black;
+  }
+  #txtEditor {
+    color:black;
+    background-color: rgb(200,200,200);
+  }
