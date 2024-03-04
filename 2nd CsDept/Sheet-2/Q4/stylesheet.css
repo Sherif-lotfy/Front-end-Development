@@ -1,0 +1,60 @@
+:root {
+    --color-1:#eee;
+    --color-2:white;
+    --color-3:#122020;
+}
+body{
+    background-color: var(--color-3);
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    color: var(--color-2);
+    padding-left: 5px;
+    border-radius: 3px;
+    user-select: none;
+    outline: none;
+    border: none;
+}
+.main-div {
+    background-color: var(--color-1);
+    width: 70%;
+    max-width: 700px;
+    min-height: 600px;
+    padding: 50px 80px;
+    margin: auto;
+}
+.array-div {
+    background-color:var(--color-3) ;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+input {
+    background-color: transparent;
+    position: absolute;
+    top: 2px;
+    outline: none;
+    border: none;
+    width: none;
+}
+.btn {
+    float: right;
+    padding: 5px 8px;
+    background-color: var(--color-3);
+    text-align: center;
+    transition: 0.3s transform;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+.btn:active {
+    transform: scale(0.9);
+}
+.output {
+    width: 100%;
+    background-color: var(--color-3);
+}
