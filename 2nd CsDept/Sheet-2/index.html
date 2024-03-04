@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Q3</title>
+</head>
+<body>
+    <div class="main-div">
+        <div class="name">
+            Name:
+            <input type="text" id="name">
+        </div>
+        <br>
+        <div class="age">
+            Age:
+            <input type="number" id="age">
+        </div>
+        <br>
+        <div class="gpa">
+            GPA:
+            <input type="number" id="gpa">
+        </div>
+        <br>
+        <div class="btn" onclick="add()">Add Student</div>
+        <br><br>
+        <div class="sort">
+            Sort by:
+            <select onchange="sort()">
+                <option>Name(Ascending)</option>
+                <option>GPA (Descending)</option>
+            </select>
+        </div>
+        <br>
+        <div class="textarea">
+            <div class="table"><div>Name</div> - <div>Age</div> - <div>GPA</div></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
