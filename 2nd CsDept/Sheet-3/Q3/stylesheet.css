@@ -1,0 +1,55 @@
+:root {
+    --color-1:#ccc;
+    --color-2:black;
+    --color-3:#aaa;
+}
+*{
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+.main-div {
+    max-width: 700px;
+    width: 70%;
+    margin:20px auto;
+    background-color: var(--color-1);
+    padding: 30px 70px;
+    height: 600px;
+}
+.file-type {
+    display: flex;
+}
+.types {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+.file-list {
+    position: relative;
+}
+.list {
+    position: absolute;
+    top: 0;
+    left: 90px;
+    padding:0 5px 5px 5px;
+    margin: auto;
+    transition: 0.3s;
+}
+.list:hover {
+    background-color: var(--color-3);
+}
+.newlist{
+    padding: 3px 6px 3px 15px;
+    background-color: var(--color-3);
+}
+.newlist li {
+    margin-top: 5px;
+}
+.newlist li:hover {
+    background-color: var(--color-1);
+}
