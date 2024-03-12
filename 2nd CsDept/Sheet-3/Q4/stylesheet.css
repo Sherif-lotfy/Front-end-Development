@@ -1,0 +1,68 @@
+:root {
+    --color-1:#400001;
+    --color-2:#ddd;
+}
+body {
+    background-color: var(--color-2);
+}
+* {
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    color: var(--color-2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+}
+input[type=number]::-webkit-inner-spin-button{
+    appearance: none;
+    float: right;
+}
+input[type=number] {
+    padding: 5px 8px;
+    color: var(--color-1);
+    width: calc(20% - 16px);
+    text-align: center;
+}
+input[type=text] {
+    padding: 5px 8px;
+    color: var(--color-1);
+    width: calc(80% - 23px);
+    margin-top: 5px;
+}
+.main-div {
+    margin: 20px auto;
+    width: 70%;
+    max-width: 700px;
+    height: 600px;
+    padding: 50px;
+    background-color: var(--color-1);
+}
+.btn {
+    float: right;
+    background-color: var(--color-2);
+    padding: 5px 8px;
+    color: var(--color-1);
+    font-weight: bold;
+    margin-right: 1px;
+    transition: 0.3s;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.btn:active {
+    transform: scale(0.9);
+}
+.result {
+    background-color: var(--color-2);
+    color: var(--color-1);
+    padding: 5px 8px;
+    margin-top: 5px;
+    user-select: text;
+}
+::selection {
+    background-color: var(--color-1);
+    color: var(--color-2);
+}
