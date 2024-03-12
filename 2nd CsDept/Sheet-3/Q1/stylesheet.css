@@ -59,3 +59,6 @@ form {
     display:inline-block;
     top: 1px;
 }
+p {
+    font-size: 80%;
+}
