@@ -1,43 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Test</title>
+    <title>index</title>
 </head>
 <body>
-    <!-- <form method="post">
-        <input type="text" name="FName" required>
-        <input type="text" name="LName" required>
-        <input type="Email" name="email" required>
-        <input type="submit" value="insert student">
-    </form> -->
-
+    <table>
+    <tr>
+        <th>id</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Course</th>
+        <th>Link</th>
+    </tr>
     <?php
-    // $cars = array("Jaguar" =>"a7a", "Audi", "Mercedes", "BMW");
-    // foreach($cars as $i)
-    // {
-    //   echo "$i <br>";
-    // }
-    // for($i=0 ; $i< count($cars) ; $i++){
-    //     echo "$cars[$i] <br> ";
-    // }
-    // extract( $cars );
-    // echo "$Jaguar";
-    // $$Jaguar = "lol";
-    // echo "<br>";
-    // echo $a7a;
-
     require_once 'connect.php';
-  
-    
-    
-   
-    
-    
-    
-    // $stat2 = "delete from student where FName = \"ahmed\" ;";
-    // $sql = $connectdb -> prepare($stat2);
-    // $sql -> execute();
-    // echo "<br>";
+
+    $stat = "select s.studentId as id , s.FName as fn , s.LName as ln , sc.Course_CourseCode as cc  from student s, student_course sc where sc.Student_StudentId = s.studentId";
+    $sql = $connectdb -> prepare($stat);
+    $sql -> execute();
+    $students = $sql -> get_result();
+
+    foreach ($students as $s){
+        echo"
+        <tr>
+        <td>".$s['id']."</td>
+        <td>".$s['fn']."</td>
+        <td>".$s['ln']."</td>
+        <td>".$s['cc']."</td>
+        <td><a href=\"grade.php?i=".$s['id']." ".$s['cc']."\">Grading</a></td>
+        </tr>";
+    }
     ?>
+    </table>
+
+    <a href="add_student.php">Register New Student</a>
 </body>
 </html>

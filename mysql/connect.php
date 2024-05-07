@@ -6,6 +6,6 @@
     
 
     $connectdb = mysqli_connect($host , $user , $password , $dbname);
-    if($connectdb){
-        echo "connected";
-    }
+    // if($connectdb){
+    //     echo "connected <br>";
+    // }
