@@ -28,4 +28,6 @@ if(isset($_GET['i'])){
         $sql = $connectdb -> prepare($stat);
         $sql -> execute(); 
     }
+}else {
+    echo "There is no any student to update his/her marks"
 }
